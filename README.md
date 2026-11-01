@@ -1,6 +1,6 @@
 # Advising office: student records merge + appointment demand
 
-> **Sample project.** Built to match the fictional "Jordan Patel" student job in a university advising office. All students and records are invented.
+> **Personal project.** Simulates a university advising office's records and appointment data. All students and records are synthetic.
 
 Two problems an advising office really has:
 
