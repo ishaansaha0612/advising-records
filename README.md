@@ -55,7 +55,7 @@ Finally, a **golden record** per student takes each field from the most trusted 
 - `drop_in_plan.csv`, `demand_heatmap.png`
 - `powerbi/`: a star schema (`fact_appointment_requests`, `dim_date`, `dim_student`) that loads straight into Power BI or Tableau
 
-## Interview talking points
+## Design decisions
 
 - **Why is a name match not enough?** There are two Grace Walkers. An early version merged on name alone and precision dropped. The test `test_same_name_different_person_is_not_merged` guards against that now.
 - **Why passes instead of one big fuzzy match?** Each merge is explainable ("matched by email"), and the risky rule only touches the few rows the safe rules couldn't place.
